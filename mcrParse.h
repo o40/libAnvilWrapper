@@ -2,15 +2,14 @@
 #define MCRPARSE_H
 #include <string>
 
-using namespace std;
-
 class McrParse
 {
+public:
 	McrParse();
-	McrParse(string path);
+	McrParse(std::string path);
 	~McrParse();
 
-	Load(string path);
-}
+	Load(std::string path);
+};
 
 #endif

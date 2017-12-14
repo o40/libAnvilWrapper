@@ -1,13 +1,14 @@
 #include "mcrParse.h"
+#include <iostream>
 
 McrParse::McrParse()
 {
 
 }
 
-McrParse::McrParse(string path)
+McrParse::McrParse(std::string path)
 {
-	cout << "Loading " << path << endl;
+	std::cout << "Loading " << path << std::endl;
 }
 
 McrParse::~McrParse()
@@ -15,7 +16,7 @@ McrParse::~McrParse()
 
 }
 
-McrParse::Load(string path)
+McrParse::Load(std::string path)
 {
 
 }
