@@ -1,7 +1,7 @@
-#include "mcrParse.h"
+#include "libAnvilWrapper.h"
 
 int main()
 {
-	McrParse p("c:\\Users\\daniel_new\\Desktop\\minecraftworlds\\New World");
+	LibAnvilWrapper law("c:\\Users\\daniel_new\\Desktop\\minecraftworlds\\New World");
 	return 0;
 }

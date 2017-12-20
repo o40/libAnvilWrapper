@@ -1,7 +1,7 @@
 all: main
 
-libmcr:
-	g++ -ggdb -c mcrParse.cpp
+libAnvilWrapper:
+	g++ -ggdb -std=c++0x -I../libanvil/src -c libAnvilWrapper.cpp
 
-main: libmcr
-	g++ -ggdb mcrParse.o main.cpp -o main.exe
+main: libAnvilWrapper
+	g++ -o main.exe libAnvilWrapper.o main.cpp -std=c++0x -L/mingw64/bin -lboost_regex-mt -lz -I../libanvil/src -L../libanvil -lanvil
