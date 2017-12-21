@@ -1,0 +1,12 @@
+Wrapper class for libanvil to be able to request specific ranges from a minecraft world. This is just the embryo for it and is a work in progress.
+
+I built this using MINGW64 (Msys2).
+
+Instructions:
+
+1. git clone https://github.com/majestic53/libanvil.git 
+2. git clone https://github.com/o40/libAnvilWrapper.git
+3. cd libanvil
+4. make
+5. cd ../libAnvilWrapper
+6. make
