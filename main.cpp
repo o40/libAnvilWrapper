@@ -9,6 +9,6 @@ int main(int argc, char* argv[])
 	}
 
 	printf("Loading: %s\n", argv[1]);
-	LibAnvilWrapper law("c:\\Users\\daniel_new\\Desktop\\minecraftworlds\\New World");
+	LibAnvilWrapper law(argv[1]);
 	return 0;
 }
