@@ -1,4 +1,4 @@
-Wrapper class for libanvil to be able to request specific ranges from a minecraft world. This is just the embryo for it and is a work in progress.
+Wrapper class for libanvil to be able to request specific ranges from a minecraft world and to remove unreachable blocks and merge blocks whenever possible.
 
 I built this using MINGW64 (Msys2).
 
